@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 1300px;
+    height: 400px;
+    background-color: gray;
+    text-align: center;
+    color: cornsilk;
+    font-size: 18px;
+}
+.menu {
+    width: 90%;
+    height: 40px;
+    background-color: rgb(230, 86, 42);
+    margin: 20px 40px;
+}
+.menu li:last-child {
+    float: right;
+}
+li {
+    list-style: none;
+    width: calc((1/12) * 100%);
+    float: left;
+    line-height: 40px;
+}
+li a {
+    text-decoration: none;
+    color: cornsilk;
+    cursor: pointer;
+}
+li:hover {
+    background-color: black;
+}

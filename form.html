@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="dog">
+            <h1>PUPASSURE</h1>
+            <img src="dog.jpg" alt="">
+        </div>
+        <div class="form">
+            <form method="POST">
+                <h2>Yay,puppies! Ensure your pup gets the best care!</h2>
+                <div class="infor">
+                    <div class="row">
+                        <div class="col">
+                            <p>Name</p>
+                            <input type="text" name="Name" placeholder="Pet's name">
+                        </div>
+                        <div class="col">
+                            <div class="photo">
+                                <input type="image" name="imagebutton" src="camera.png">
+                                <p>up load a photo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>Breed</p>
+                            <input type="text" name="Breed" placeholder="Pet's breed">
+                        </div>
+                        <div class="col">
+                            <p>Birthday</p>
+                            <input type="date" name="birthday" id="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>Gender</p>
+                            <div class="selection">
+                                <input type="radio" id="Female" checked></button>
+                                <label for="Female">Female</label>
+                                <input type="radio" id="male"></button>
+                                <label for="male">Male</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p>Spayed or Neutered</p>
+                            <div class="selection">
+                                <input type="radio" class="Spayed"></button>
+                                <label for="Spayed">Spayed</label>
+                                <input type="radio" class="Neutered"></button>
+                                <label for="Neutered">Neutered</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last-row">
+                        <p>Weight</p>
+                        <div class="selection">
+                            <button type="radio" class="0-25 lbs"></button>
+                            <label for="0-25 lbs">0-25 lbs</label>
+                            <button type="radio" class="25-50 lbst"></button>
+                            <label for="25-50 lbs">25-50 lbs</label>
+                            <button type="radio" class="50-100 lbs"></button>
+                            <label for="50-100 lbs">50-100 lbs</label>
+                            <button type="radio" class="100+ lbs"></button>
+                            <label for="100+ lbs">100+ lbs</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="next-back">
+                <button type="submit" class="back-forward" value="next">Next</button>
+                <button type="submit" class="back-forward" value="back">Back</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
